@@ -1,0 +1,16 @@
+var http = require('http');
+var fs = require('fs');
+const host='192.168.0.243';
+const port=9998
+var app = http.createServer(function(request,response){
+    var url = request.url;
+    if(request.url == '/'){
+      url = '/joy.html';
+    }
+    if(request.url == '/favicon.ico'){
+      return response.writeHead(404);
+    }
+    response.writeHead(200);
+    response.end(fs.readFileSync(__dirname + url));
+});
+app.listen(port,host);
