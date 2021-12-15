@@ -1,22 +1,20 @@
 {
-  "name": "Poloro Controller",
-  "version": "1.1.6",
-  "description": "A Donkey Car Controller that streams video from the car and provides joystick that controls the car",
-  "main": "joy.js",
-
+  "name": "Poloro Web Controller",
+  "version": "1.1.7",
+  "description": "It helps end-users to connect and control donkey-car",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devJJinho/posco_poloro_web_controller.git"
+    "url": "git+https://github.com/devJJinho/posco_poloro_web_cotroller"
   },
   "keywords": [
     "joystick",
-    "streaming",
-    "socket",
-    "donkeycar"
+    "donkey",
+    "socket"
   ],
-  "author": "devvJJinho",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/devJJinho/posco_poloro_web_controller/issues"
-  }
+  "author": "devJJinho",
+  "license": "MIT"
 }
