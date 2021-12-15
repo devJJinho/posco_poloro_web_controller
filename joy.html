@@ -1,35 +1,10 @@
 <!DOCTYPE HTML>
-<!--
- The MIT License (MIT)
-
- This file is part of the JoyStick Project (https://github.com/bobboteck/JoyStick).
- Copyright (c) 2015 Roberto D'Amico (Bobboteck).
-
- Permission is hereby granted, free of charge, to any person obtaining a copy
- of this software and associated documentation files (the "Software"), to deal
- in the Software without restriction, including without limitation the rights
- to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- copies of the Software, and to permit persons to whom the Software is
- furnished to do so, subject to the following conditions:
- 
- The above copyright notice and this permission notice shall be included in all
- copies or substantial portions of the Software.
-
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- SOFTWARE.
--->
 <html>
 	<head>
 		<title>Poloro Controller</title>
 		<meta charset="utf-8">
         <script type="text/javascript"></script>
-		<script type='module' src='./assets/js/joy.js'></script>
-		<script type='module' src="./index.js"></script>
+		<script src="index.js"></script>
 		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	</head>
 	<body>
@@ -41,11 +16,11 @@
 				<div id="joy1Div"></div>
 				<div id='infoDiv'>
 					<div id=speedDiv> 
-						Default Speed:<input class='input' id="defaultSpeed" value='0.55' type="text" />
-						<input id='speedSubmit' type='button' value="입력">
+						Default Speed:<input class='input' id="defaultSpeed" value='84' type="text" />
+						<input id='speedSubmit' type='button' onclick=managePosition.setDefSpeed() value="입력">
 					</div>
-					Posizione    X:       <input class='input' id="joy1PosizioneX" type="text" /><br />
-					Posizione    Y:       <input class='input' id="joy1PosizioneY" type="text" /><br />
+					Posizione    X:       <input class='input' id="joy1PosizioneX" type="text" value=100 /><br />
+					Posizione    Y:       <input class='input' id="joy1PosizioneY" type="text" value=100 /><br />
 				</div>
 			</div>
 		</div>

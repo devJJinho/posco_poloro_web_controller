@@ -53,7 +53,7 @@
  * 	externalStrokeColor {String} (optional) - External reference circonference color (Default value is '#008000')
  * 	autoReturnToCenter {Bool} (optional) - Sets the behavior of the stick, whether or not, it should return to zero position when released (Default value is True and return to zero)
  */
-var JoyStick = (function(container, parameters)
+export var JoyStick = (function(container, parameters)
 {
 	parameters = parameters || {};
 	var title = (typeof parameters.title === "undefined" ? "joystick" : parameters.title),

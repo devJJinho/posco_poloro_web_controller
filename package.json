@@ -1,25 +1,22 @@
 {
-  "name": "html5-joystick",
+  "name": "Poloro Controller",
   "version": "1.1.6",
-  "description": "A simple JoyStick that use HTML5 Canvas and Vanilla JavaScript, for touch and mouse interfaces",
+  "description": "A Donkey Car Controller that streams video from the car and provides joystick that controls the car",
   "main": "joy.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobboteck/JoyStick.git"
+    "url": "git+https://github.com/devJJinho/posco_poloro_web_controller.git"
   },
   "keywords": [
     "joystick",
-    "vanilla",
-    "touchscreen",
-    "html5"
+    "streaming",
+    "socket",
+    "donkeycar"
   ],
-  "author": "Roberto D'Amico (@bobboteck)",
+  "author": "devvJJinho",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bobboteck/JoyStick/issues"
-  },
-  "homepage": "https://github.com/bobboteck/JoyStick#readme"
+    "url": "https://github.com/devJJinho/posco_poloro_web_controller/issues"
+  }
 }
