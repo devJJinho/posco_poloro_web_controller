@@ -5,7 +5,7 @@ const port=9998
 var app = http.createServer(function(request,response){
     var url = request.url;
     if(request.url == '/'){
-      url = '/joy.html';
+      url = '/index.html';
     }
     if(request.url == '/favicon.ico'){
       return response.writeHead(404);
